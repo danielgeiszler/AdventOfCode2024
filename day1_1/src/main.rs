@@ -31,7 +31,6 @@ fn load_file(file_path: &str) -> io::Result<(Vec<i32>, Vec<i32>)> {
         }
     }
 
-
     Ok((col1, col2))
 }
 
